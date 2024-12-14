@@ -6,5 +6,5 @@ read setuptype
 if [ $setuptype == 1 ]; then
     $installdir = /usr/bin/PointsForCrystals/
     mkdir -p $installdir
-    cp runmypyapp.sh $installdir
+    cp PointsForCrystals.sh $installdir
     cp PointsForCrystals.py $installdir
